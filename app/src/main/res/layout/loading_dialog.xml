@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_bottom_bar222"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:indeterminateDrawable="@drawable/progress_bar_color"/>
+
+    <TextView
+        android:id="@+id/teVi_bottom_bar_loading_msg11"
+        android:paddingLeft="12dip"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/str_loading"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChessKnightMovement</string>
+    <string name="refresh">Refresh</string>
+    <string name="str_loading">Loading</string>
+</resources>
